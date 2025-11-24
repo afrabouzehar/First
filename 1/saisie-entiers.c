@@ -13,6 +13,11 @@ int main()
 
     printf("\n=== Le produit de %d et %d est : %d === ",a,b,produit);
 
+    // Wait for user to press Enter
+    printf("\n\nPress Enter to exit...");
+    getchar();   // waits for a key press
+
+
     return 0;
 
 }
